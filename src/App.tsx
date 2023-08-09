@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "swagger-ui-react/swagger-ui.css"
 import SwaggerUI from "swagger-ui-react";
 
 function App() {
