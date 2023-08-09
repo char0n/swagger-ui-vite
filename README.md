@@ -1,22 +1,4 @@
-# Vite & Swagger UI polyfill issues - minimal example
+# Vite + swagger-ui-react POC
 
-Related discussion in PR on Swagger UI repo: https://github.com/swagger-api/swagger-ui/pull/7898
-
-## Rationale
-
-Installing and using `swagger-ui-react` fails out of the box on applications
-that use Vite.js. Why?
-
-This repo is a minimal reproduction of those issues.
-
-## Steps to get here
-
-1. `npm create vite@latest swagger-ui-on-vite`
-2. Pick "react" and "react-ts"
-3. For a dev build, run `npm run dev`
-4. Remove default stuff main.tsx - and styling
-5. `npm install --save swagger-ui-react @types/swagger-ui-react`
-6. Import and use the `SwaggerUI` component
-7. Observe errors when opening the app:
-
-![](swagger-ui-component-error-randombytes.png)
+This repo serves as POC of integrating Vite + swagger-ui-react.
+No Node.js polyfilling is needed anymore, since [SwaggerUI@4.10.0](https://github.com/swagger-api/swagger-ui/releases/tag/v4.10.0).
