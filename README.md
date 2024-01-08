@@ -2,7 +2,7 @@
 
 This repo serves as POC of integrating [swagger-ui-react](https://github.com/swagger-api/swagger-ui) with vite + vue.js.
 
-> NOTE:No Node.js polyfilling is needed anymore, since [SwaggerUI@4.10.0](https://github.com/swagger-api/swagger-ui/releases/tag/v4.10.0).
+> NOTE:No Node.js polyfilling is not needed anymore, since [SwaggerUI@4.10.0](https://github.com/swagger-api/swagger-ui/releases/tag/v4.10.0).
 
 ## Recommended IDE Setup
 
